@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(130, 132, 134);
+    max-width: 1920px; /**/
+}
+
+#warning{
+    text-decoration: underline gray;
+}
+
+.top{
+    max-width: 1920px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#git{
+    margin-top: 70px;
+    text-decoration: underline;
+}
+
+.header{
+    font-size: 44px;
+    width: 60%;
+}
+
+.header h2{
+    margin-inline-start: 30px;
+}
+
+.navigation{
+    width: 40%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation a{
+    margin: 0 2%;
+    padding: 5%;
+}
+
+.body{
+    margin: 20px 20px;
+    display: flex;
+}
+
+.text{
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    margin-inline-end: 20px;
+    padding: 30px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile > div{
+    background-color: white;
+}
+
+.about{
+    padding: 30px;
+    background-color: white;
+}
+
+.contact{
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.about p{
+    margin-top: 2.5%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: underline;
+    background-color: rgb(225, 226, 226);
+}
+
+img{
+    width: 282px;
+    padding: 30px;
+}
