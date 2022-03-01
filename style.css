@@ -6,17 +6,32 @@
 
 body{
     background-color: rgb(130, 132, 134);
-    max-width: 1920px; /**/
+    margin: 0 auto;
 }
 
 #warning{
     text-decoration: underline gray;
 }
 
+@media (max-width:1700px){
+
+}
+
+@media (max-width:1200px){
+    .body{
+        max-width: 970px;
+        margin: 0 auto;
+    }
+
+    .navigation{
+        max-width: 230px;
+    }
+
+}
+
 .top{
-    max-width: 1920px;
-    display: flex;
     width: 100%;
+    display: flex;
     background-color: white;
 }
 
@@ -58,7 +73,7 @@ body{
 }
 
 .body{
-    margin: 20px 20px;
+    margin: 20px auto;
     display: flex;
 }
 
@@ -68,11 +83,13 @@ body{
     font-size: 20px;
     margin-inline-end: 20px;
     padding: 30px;
+    margin-inline-start: 20px;
 }
 
 .profile{
     display: flex;
     flex-direction: column;
+    margin-inline-end: 20px;
 }
 
 .profile > div{
@@ -104,6 +121,6 @@ a{
 }
 
 img{
-    width: 282px;
+    max-width: 282px;
     padding: 30px;
 }
