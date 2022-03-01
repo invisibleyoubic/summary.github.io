@@ -13,20 +13,65 @@ body{
     text-decoration: underline gray;
 }
 
-@media (max-width:1700px){
+/* 1200 970 
+992 750
+767 none*/
+
+@media (max-width: 1200px){
+    .body{
+        max-width: 970px;
+    }
 
 }
 
-@media (max-width:1200px){
+@media (max-width: 992px){
     .body{
-        max-width: 970px;
-        margin: 0 auto;
+        max-width: 750px;
     }
 
     .navigation{
         max-width: 230px;
     }
 
+    .header h2{
+        font-size: 30px;
+    }
+
+    .navigation a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .header{
+        font-size: 20px;
+    }
+
+    .body{
+        max-width: none;
+        flex-direction: column-reverse;
+    }
+
+    .profile{
+        margin: 20px 20px 0 20px;
+    }
+
+    .text{
+        margin: 20px;
+        max-width: fit-content;
+    }
+
+    img{
+        margin: 0 auto;
+    }
+
+    .header h2{
+        font-size: 20px;
+    }
+
+    .navigation a{
+        font-size: 10px;
+    }
 }
 
 .top{
