@@ -91,6 +91,10 @@ body{
     .navigation a{
         font-size: 8px;
     }
+
+    .navigation{
+        max-width: 200px;
+    }
 }
 
 .top{
