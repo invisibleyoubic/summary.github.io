@@ -66,11 +66,26 @@ body{
     }
 
     .header h2{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .navigation a{
-        font-size: 10px;
+        font-size: 9px;
+    }
+
+    .footer p{
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 374px){
+
+    img{
+        width: 200px;
+    }
+
+    .header h2{
+        font-size: 17px;
     }
 }
 
