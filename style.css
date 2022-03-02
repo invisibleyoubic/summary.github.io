@@ -87,6 +87,10 @@ body{
     .header h2{
         font-size: 17px;
     }
+
+    .navigation a{
+        font-size: 8px;
+    }
 }
 
 .top{
